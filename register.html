@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+<h1>Booking Registration Form</h1>
+
+<form action="bouncer.php"> <!--or do I keep "POST"?-->
+        Last Name: <input type="text" name="LastName"><br>
+        First Name: <input type="text" name="FirstName"><br>
+        Phone Number: <input type="text" name="PhoneNumber"><br>
+
+        Which continent are you traveling to?<br>
+        <input type="radio" name="continent" value="NA"> North America<br>
+        <input type="radio" name="continent" value="SA"> South America<br>
+        <input type="radio" name="continent" value="Eur"> Europe<br>
+        <input type="radio" name="continent" value="Africa"> Africa<br>
+        <input type="radio" name="continent" value="Asia"> Asia<br>
+        <input type="radio" name="continent" value="Aus"> Australia<br>
+        <input type="radio" name="continent" value="AA"> Antarctica<br>
+
+        
+        What excursions are you wishing to book?<br>
+        <input type="checkbox" name="horse" value="Horse"> Horseback Riding<br>
+        <input type="checkbox" name="scuba" value="Scuba"> Scuba Diving<br>
+        <input type="checkbox" name="pyramid" value="Pyramid"> View the Pyramids<br>       
+        <input type="checkbox" name="bridge" value="Bridge"> Bridge Tournament<br>
+
+        When can we call you?
+        <select name="call">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+        </select><br>
+
+        <label for="essay">Who else will be traveling with you?</label> <textarea name="essay" id="essay"></textarea><br>
+
+
+        <input type="button" value="Click Me"><br> <!--keep in for now, probably will delete-->
+
+        <input type="submit"> <br>  <!--defaults to submit on the name of the button-->
+        <input type="reset"> <br>  <!--resets the form-->
+
+    </form>
+
+</body>
+</html>
