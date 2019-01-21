@@ -7,3 +7,26 @@ h2 {
     background-color: burlywood;
 }
 
+footer {
+    float: right;
+}
+
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    width: 90%;
+}
+
+.picture {
+    width: 25%;
+    border: 20px solid rgb(94, 16, 182);
+}
+
+.input-box {
+    background-color: blanchedalmond;
+}
+
+form {
+    margin: 20px;
+}
+
