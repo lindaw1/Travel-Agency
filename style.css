@@ -19,7 +19,7 @@ table {
 
 .picture {
     width: 25%;
-    border: 20px solid rgb(94, 16, 182);
+    border: 10px solid blanchedalmond;
 }
 
 .input-box {
@@ -30,3 +30,12 @@ form {
     margin: 20px;
 }
 
+.index-page {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+.button {
+    width: 10%;
+}
