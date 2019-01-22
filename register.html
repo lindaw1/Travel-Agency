@@ -14,9 +14,12 @@
     
 <h1>Booking Registration Form</h1>
 
-<form action="bouncer.php"> <!--or do I keep "POST"?-->
-        Last Name: <input type="text" name="LastName" class="input-box"><br>
-        First Name: <input type="text" name="FirstName" class="input-box"><br>
+<form action="" method="POST"> <!-- url will be "bouncer.php" -->
+        Name: <input type="text" name="name" class="input-box"><br>
+        Address: <input type="text" name="address" class="input-box"><br>
+        City: <input type="text" name="city" class="input-box"><br>
+        Province: <input type="text" name="province" class="input-box"><br>
+        Postal Code: <input type="text" name="province" class="input-box"><br>
         Phone Number: <input type="text" name="PhoneNumber" class="input-box"><br>
 
         Which continent are you traveling to?<br>
@@ -47,10 +50,13 @@
 
         <input type="button" value="Click Me"><br> <!--keep in for now, probably will delete-->
 
-        <input type="submit"> <br>  <!--defaults to submit on the name of the button-->
-        <input type="reset"> <br>  <!--resets the form-->
+        <input type="submit" id="lindaSubmit"> <br>  <!--defaults to submit on the name of the button-->
+        <input type="reset" id="lindaReset"> <br>  <!--resets the form-->
 
     </form>
 
 </body>
+
+<script src="script.js"></script>
+
 </html>
