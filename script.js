@@ -21,3 +21,5 @@ resetButton.addEventListener("click", function(event) {
     }else {
         alert("Reset is cancelled");
 }});
+
+console.log("testing github background app");

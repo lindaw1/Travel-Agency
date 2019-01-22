@@ -47,3 +47,14 @@ body {
 header .picture {
     border: 5px solid crimson;
 }
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left; /*Change to right here if you want it close to the inputs*/
+}
+input {
+  display: inline-block;
+  float: left;

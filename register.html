@@ -15,14 +15,16 @@
 <h1>Booking Registration Form</h1>
 
 <form action="" method="POST"> <!-- url will be "bouncer.php" -->
-        Name: <input type="text" name="name" class="input-box"><br>
-        Address: <input type="text" name="address" class="input-box"><br>
-        City: <input type="text" name="city" class="input-box"><br>
-        Province: <input type="text" name="province" class="input-box"><br>
-        Postal Code: <input type="text" name="province" class="input-box"><br>
-        Phone Number: <input type="text" name="PhoneNumber" class="input-box"><br>
-
-        Which continent are you traveling to?<br>
+    <label>Name: </label><input type="text" name="name" class="input-box"><br>
+    <label>Address: </label><input type="text" name="address" class="input-box"><br>
+    <label>City: </label><input type="text" name="city" class="input-box"><br>
+    <label>Province: </label><input type="text" name="province" class="input-box"><br>
+    <label>Postal Code: </label><input type="text" name="postalCode" class="input-box"><br>
+    <label>Phone Number: </label><input type="text" name="PhoneNumber" class="input-box"><br>
+    <br>
+    <br>
+    <br>
+    Which continent are you traveling to?<br>
         <input type="radio" name="continent" value="NA"> North America<br>
         <input type="radio" name="continent" value="SA"> South America<br>
         <input type="radio" name="continent" value="Eur"> Europe<br>
@@ -30,27 +32,32 @@
         <input type="radio" name="continent" value="Asia"> Asia<br>
         <input type="radio" name="continent" value="Aus"> Australia<br>
         <input type="radio" name="continent" value="AA"> Antarctica<br>
-
+        <br>
         
         What excursions are you wishing to book?<br>
         <input type="checkbox" name="horse" value="Horse"> Horseback Riding<br>
         <input type="checkbox" name="scuba" value="Scuba"> Scuba Diving<br>
         <input type="checkbox" name="pyramid" value="Pyramid"> View the Pyramids<br>       
         <input type="checkbox" name="bridge" value="Bridge"> Bridge Tournament<br>
-
+        <br>
+        
         When can we call you?
         <select name="call">
             <option value="morning">Morning</option>
             <option value="afternoon">Afternoon</option>
             <option value="evening">Evening</option>
         </select><br>
-
+        <br>
+        
         <label for="essay">Who else will be traveling with you?</label> <textarea name="essay" id="essay"></textarea><br>
-
-
+        <br>
+        
         <input type="button" value="Click Me"><br> <!--keep in for now, probably will delete-->
-
+        <br>
+        
         <input type="submit" id="lindaSubmit"> <br>  <!--defaults to submit on the name of the button-->
+        <br>
+        
         <input type="reset" id="lindaReset"> <br>  <!--resets the form-->
 
     </form>
