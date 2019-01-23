@@ -22,4 +22,24 @@ resetButton.addEventListener("click", function(event) {
         alert("Reset is cancelled");
 }});
 
-console.log("testing github background app");
+var img1 = 'img/marten-bjork.jpg';
+var img2 = 'img/ludovic-fremondiere.jpg';
+var img3 = 'img/willian-west.jpg';
+var img4 = 'img/jeshoots.jpg';
+var imageArray = [img1, img2, img3, img4];
+
+var desc1 = '1blah blha blah';
+var desc2 = '2blah blah blah';
+var desc3 = '3blah blah blah';
+var desc4 = '4blah blah blah';
+var descArray = [desc1, desc2, desc3, desc4];
+
+for (var i = 0; i < imageArray.length; i++) {
+    console.log(imageArray[i]);
+    console.log(descArray[i]);
+}
+var pageBody = document.getElementById('day6')[0];
+var newTable = document.createElement('th');
+var tableRow = document.createTextNode('Linda');
+newTable.appendChild(tableRow);
+pageBody.appendChild(newTable);
