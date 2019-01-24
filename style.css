@@ -15,7 +15,8 @@ footer {
 table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2vw;
-    width: 90%;
+    max-width: 90%;
+    border: 5px solid black;
 }
 
 .picture {
@@ -58,3 +59,4 @@ label {
 input {
   display: inline-block;
   float: left;
+}
